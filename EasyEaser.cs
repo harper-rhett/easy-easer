@@ -63,6 +63,8 @@ namespace EasyEaser
 		// Some of these functions are sourced from https://easings.net/
 		// I would recommend checking it out for more curves
 
+		public static float Linear(float x) => x;
+
 		public static float SmoothStep(float x)
 		{
 			return x * x * (3f - 2f * x);
